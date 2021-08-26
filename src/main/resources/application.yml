@@ -2,11 +2,17 @@ micronaut:
   application:
     name: inventario
 
+url: "tsteeeeeeeeeeeeeeeeee"
+ura: "tsteeeeeeeeeeeeeeeeee"
+urb: "tsteeeeeeeeeeeeeeeeee"
+urc: "tsteeeeeeeeeeeeeeeeee"
+
 datasources:
   default:
     url: ${DB_URI:`jdbc:postgresql://localhost:5432/teste`}
     driverClassName: org.postgresql.Driver
     username: ${DB_USER:postgres}
+    username2: ${DB_USER:postgres}
     password: ${DB_PASSWORD:postgres}
     schema-generate: CREATE_DROP
     dialect: ${DB_DIALECT:POSTGRES}
