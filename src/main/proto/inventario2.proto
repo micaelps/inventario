@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.micaelps";
+option java_outer_classname = "Inventario";
+option objc_class_prefix = "HLW";
+
+package com.micaelps;
+
+service InventarioService {
+  rpc send (InventarioRequest) returns (InventarioResponse) {}
+}
+
+message InventarioRequest {
+  string name  = 1;
+  string email = 2;
+}
+
+message InventarioResponse {
+  string message = 1;
+}
