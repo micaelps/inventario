@@ -12,10 +12,10 @@ service InventarioService {
 }
 
 message InventarioRequest {
-  string namedsadsa  = 1;
+  string nam = 1;
   string email = 2;
 }
 
 message InventarioResponse {
-  string msgddsad = 1;
+  string msg = 1;
 }
