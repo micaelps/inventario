@@ -17,6 +17,10 @@ datasources:
     schema-generate: CREATE_DROP
     dialect: ${DB_DIALECT:POSTGRES}
 
-jpa.default.properties.hibernate.hbm2ddl.auto: update
-jpa.default.properties.hibernate.show_sql: true
-jpa.default.properties.hibernate.format_sql: true
+teste:
+  url: "localhost:8080/teste"
+  ura: "localhost:8080/teste"
+  urb: "localhost:8080/teste"
+  urc: "localhost:8080/teste"
+  urd: "localhost:8080/teste"
+  ure: "localhost:8080/teste"
